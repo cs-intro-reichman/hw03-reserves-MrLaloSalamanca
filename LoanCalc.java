@@ -47,6 +47,7 @@ public class LoanCalc {
 			endBalance = endBalance(loan, rate, n, payment);
 			iterationCounter ++;
 		}
+		iterationCounter ++;
 	
     	return payment;
     }
